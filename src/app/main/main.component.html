@@ -1,0 +1,12 @@
+<div class="container-fluid ">
+    <div class="containerStyle m-3 p-3">
+        <div class="row">
+            <div class="col-3">
+                <app-form  (userData)="data($event)"></app-form>
+            </div>
+            <div class="col-9">
+                <app-displaydata [postData]="postData" [totalItems]="totalItems"></app-displaydata>
+            </div>
+        </div>
+    </div>
+</div>
